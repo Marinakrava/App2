@@ -1,0 +1,60 @@
+﻿<Window x:Class="App2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:App2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border 
+            Grid.Row="0"
+            Background="#FFE6EFF3"
+            BorderBrush="Gray"
+            BorderThickness="3 3 1 1"
+            Margin="2 0 2 2"
+            Height="90">
+
+            <TextBlock 
+            Text=" 1 234,567"
+            FontFamily="Segoe UI"
+            FontSize="35"
+            TextAlignment="Right"
+            VerticalAlignment="Bottom" FontWeight="Bold"/>
+        </Border>
+        
+        <UniformGrid Rows="6" Columns="4" Grid.Row="1">
+            
+            <Button Content="%" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="CE" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="C" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="«=" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="1/x" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="x²" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="√x" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="+" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="7" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="8" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="9" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="X" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="4" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="5" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="6" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="-" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="1" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="2" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="3" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="+" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+            <Button Content="+/-" Background="#FFFDEFEF" FontSize="18" FontWeight="Normal"/>
+            <Button Content="0" Background="#FFFDEFEF" FontSize="18" FontWeight="Bold"/>
+            <Button Content="," Background="#FFFDEFEF" FontSize="18" FontWeight="Normal"/>
+            <Button Content="=" Background="#FFECD2D6" FontSize="18" FontWeight="Normal"/>
+
+        </UniformGrid>
+
+    </Grid>
+</Window>
